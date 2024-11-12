@@ -132,7 +132,7 @@ BEGIN
 	END WHILE;
 END//
 
-CALL PopulateDateDimension('2000-01-01', '2010-12-31');
+CALL PopulateDateDimension('2000-01-01', '2023-12-31');
 
 SELECT MIN(full_date) AS BeginDate
 	, MAX(full_date) AS EndDate
